@@ -38,6 +38,7 @@ class App extends Component {
       <div className="App">
         <SearchBox onSearch={onSearch} />
        <CardList monsters={filteredArrayData} />
+       <h1>footer</h1>
       </div>
     );
   }
